@@ -4,13 +4,12 @@
 
 ---
 
+
 ## 📌 Visão Geral
 
 O JAM Connect é uma plataforma digital que conecta freelancers e clientes, permitindo a publicação, contratação e gestão de serviços de forma simples, rápida e escalável.
 
 Este projeto foi desenvolvido como um desafio colaborativo entre programadores utilizando diferentes linguagens de programação, simulando um ambiente real de desenvolvimento profissional.
-
----
 
 ## 🎯 Objetivo do Projeto
 
@@ -19,12 +18,11 @@ Este projeto foi desenvolvido como um desafio colaborativo entre programadores u
 - Criar um produto utilizável e escalável
 - Fortalecer portfólio dos participantes
 
----
-
 ## 🧠 Arquitetura do Sistema
 
 O projeto segue uma arquitetura baseada em microserviços, onde cada linguagem é responsável por um módulo específico:
 
+```bash
 Frontend (Web)
      ↓
 API Gateway (Python)
@@ -35,8 +33,7 @@ API Gateway (Python)
      
      ↓
  Recommendation Engine (C++/Python)
-
----
+```
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -63,8 +60,6 @@ API Gateway (Python)
 
 - C++ / Python
 
----
-
 ## 📦 Estrutura do Projeto
 
 ```bash
@@ -88,8 +83,6 @@ jam-connect/
 └── README.md
 ```
 
----
-
 ## ⚙️ Funcionalidades (MVP)
 
 - ✅ Registro e login de usuários
@@ -98,8 +91,6 @@ jam-connect/
 - ✅ Listagem de serviços
 - ✅ Sistema de chat em tempo real
 - ✅ Simulação de pagamento
-
----
 
 ## 🔗 API — Padrão de Comunicação
 
@@ -125,17 +116,14 @@ POST /api/services
 WebSocket: /chat/connect
 ```
 
----
-
 ## 📄 Padrão de Resposta
-
+```json
 {
   "status": "success",
   "data": {},
   "message": ""
 }
-
----
+```
 
 ## 🚀 Como Executar o Projeto
 
@@ -155,8 +143,6 @@ cd jam-connect
 
 Cada módulo possui instruções específicas dentro do seu diretório.
 
----
-
 ## 👥 Organização da Equipa
 
 Equipa| Responsabilidade
@@ -166,8 +152,6 @@ Chat| Comunicação em tempo real
 Pagamento| Processamento de ordens
 Algoritmos| Recomendação e ranking
 
----
-
 ## 📅 Roadmap
 
 - [x] Planeamento
@@ -176,16 +160,12 @@ Algoritmos| Recomendação e ranking
 - [ ] Testes
 - [ ] Deploy
 
----
-
 ## 📚 Boas Práticas
 
 - Uso de Git e versionamento
 - Código modular e documentado
 - Comunicação entre equipas via API
 - Padronização de respostas
-
----
 
 ## 🔥 Futuras Melhorias
 
@@ -194,8 +174,6 @@ Algoritmos| Recomendação e ranking
 - Notificações em tempo real
 - Aplicação mobile
 - Deploy em produção
-
----
 
 ## 🤝 Contribuição
 
@@ -206,19 +184,13 @@ Este é um projeto colaborativo. Para contribuir:
 3. Commit das alterações
 4. Abrir um Pull Request
 
----
-
 ## 📜 Licença
 
 Este projeto está sob licença MIT.
 
----
-
 ## 💡 Autor / Coordenação
 
 Projeto coordenado por uma comunidade de programadores com foco em crescimento profissional e desenvolvimento colaborativo.
-
----
 
 ## ⭐ Conclusão
 
